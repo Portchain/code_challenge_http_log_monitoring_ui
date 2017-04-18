@@ -1,0 +1,29 @@
+{
+  "name": "http_log_monitoring_ui_coding_test",
+  "version": "0.1.0",
+  "description": "Backend for our UI coding challenge",
+  "main": "server.js",
+  "dependencies": {
+    "express": "4.15.2",
+    "ws": "2.2.3"
+  },
+  "devDependencies": {
+    "freeport": "1.0.5",
+    "mocha": "3.2.0",
+    "request": "2.81.0"
+  },
+  "scripts": {
+    "test": "mocha test/**.test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Portchain/code_challenge_http_log_monitoring_ui.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Portchain/code_challenge_http_log_monitoring_ui/issues"
+  },
+  "homepage": "https://github.com/Portchain/code_challenge_http_log_monitoring_ui#readme"
+}
